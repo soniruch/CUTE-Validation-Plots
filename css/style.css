@@ -18,9 +18,15 @@ ul {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   li a.active {
+    background-color: hsl(180, 56%, 49%);
+    color: white;
+  }
+
+  li a:focus {
     background-color: hsl(180, 56%, 49%);
     color: white;
   }
@@ -47,6 +53,7 @@ ul {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 b.active {
@@ -64,6 +71,7 @@ b:hover:not(.active){
   width: 46%;
   padding: 5px;
   height: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Clear floats after image containers */
@@ -75,4 +83,9 @@ b:hover:not(.active){
 
 img {
   height: auto;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
 }

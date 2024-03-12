@@ -1,4 +1,4 @@
-document.write("<li><a class=\"active\" href=\"javascript:plot_series('23231216_013604');\">23231216_013604</a></li>"); 
+document.write("<li><a href=\"javascript:plot_series('23231216_013604');\">23231216_013604</a></li>"); 
 document.write("<li><a href=\"javascript:plot_series('23231216_043946');\">23231216_043946</a></li>");
 document.write("<li><a href=\"javascript:plot_series('23231216_100125');\">23231216_100125</a></li>");
 document.write("<li><a href=\"javascript:plot_series('23231216_115012');\">23231216_115012</a></li>");
