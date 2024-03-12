@@ -3,7 +3,7 @@ function plot_series(series){
     
     document.getElementById('header').innerHTML = 'Series: ' + series;
 
-     document.getElementById('amp_chisq_1').setAttribute('src', '/images/' + series + '/zip1/' + series + '_amp_chisq_1.png');
+     document.getElementById('amp_chisq_1').setAttribute('src', 'images/' + series + '/zip1/' + series + '_amp_chisq_1.png');
     document.getElementById('pt_amp_1').setAttribute('src', 'images/' + series + '/zip1/' + series + '_amp_pt_1.png');
     document.getElementById('pt_amp_chan_1').setAttribute('src', 'images/' + series + '/zip1/' + series + '_amp_spectrum_combined_1.png');
     document.getElementById('noise_fft_1').setAttribute('src', 'images/' + series + '/zip1/' + series + '_pt_noise_fft_1.png');
