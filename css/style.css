@@ -1,3 +1,8 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+ } 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -88,4 +93,13 @@ img {
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
+}
+
+.container-fluid{
+  position: fixed;
+  display: block;
+  background-color: white;
+  color: black;
+  width: 85%;
+  padding-top: 0%;
 }
